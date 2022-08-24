@@ -40,10 +40,10 @@
                 'hero5': "url('./assets/hero/hero5.jpg')",
                 'hero6': "url('./assets/hero/hero6.jpg')",
                 // ------------------------------------ //
-                "qrius1": "url('./assets/Qries/qriusB1.png')",
-                "qrius2": "url('./assets/Qries/qriusB2.png')",
-                "qrius3": "url('./assets/Qries/qriusB3.png')",
-                "qrius4": "url('./assets/Qries/qriusB4.png')",
+                "qrius1": "url('./assets/products-range/qriusB1.png')",
+                "qrius2": "url('./assets/products-range/qriusB2.png')",
+                "qrius3": "url('./assets/products-range/qriusB3.png')",
+                "qrius4": "url('./assets/products-range/qriusB4.png')",
               }
             }
           }
@@ -344,9 +344,156 @@
             </div>
         </section>
         <!-- RODE Product Range -->
-        <section>
-            
+        <section class="md:px-28 py-8 px-4 bg-white">
+            <h1 class="font-bold text-2xl text-zinc-500 text-center">Explore The RØDE Range</h1>
+            <div class="flex flex-col space-y-8 mt-12">
+                <!-- card1 -->
+                <a href="#">
+                    <div class="bg-qrius1 h-72 w-[100%] flex justify-center items-center">
+                        <div class="h-full w-full flex hover:bg-[#343a40] group hover:opacity-60 duration-200">
+                            <img src="./assets/products-range/qriusS1.svg" class="bg-transparent" alt="Microphone">
+                        </div>
+                    </div>
+                </a>
+                <!-- card2 -->
+                <a href="#">
+                    <div class="bg-qrius2 h-72 w-[100%] flex justify-center items-center">
+                        <div class="h-full w-full flex hover:bg-[#343a40] group hover:opacity-60 duration-200">
+                            <img src="./assets/products-range/qriusS2.svg" class="bg-transparent" alt="Microphone">
+                        </div>
+                    </div>
+                </a>
+                <!-- card3 -->
+                <a href="#">
+                    <div class="bg-qrius3 h-72 w-[100%] flex justify-center items-center">
+                        <div class="h-full w-full flex hover:bg-[#343a40] group hover:opacity-60 duration-200">
+                            <img src="./assets/products-range/qriusS3.svg" class="bg-transparent" alt="Microphone">
+                        </div>
+                    </div>
+                </a>
+                <!-- card4 -->
+                <a href="#">
+                    <div class="bg-qrius4 h-72 w-[100%] flex justify-center items-center">
+                        <div class="h-full w-full flex hover:bg-[#343a40] group hover:opacity-60 duration-200">
+                            <img src="./assets/products-range/qriusS4.svg" class="bg-transparent" alt="Microphone">
+                        </div>
+                    </div>
+                </a>
+            </div>
         </section>
+        <!-- blog heading -->
+        <div class="py-8 text-center">
+            <a href="#" class="text-primary text-4xl font-bold">Latest From The RØDE Blog</a>
+        </div>
+        <section class="bg-gray-100 px-28 py-10 md:grid md:grid-cols-2 md:gap-8 md:space-y-0 space-y-8">
+            <!-- news-card-1 -->
+            <div class="flex flex-col space-y-6 items-center bg-white py-4">
+                <h1 class="text-center text-2xl font-medium">
+                    The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones
+                </h1>
+                <img src="./assets/news/news1.jpg" alt="news-1">
+                <p class="text-center text-xl">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+                <button class="bg-primary text-white hover:text-primary hover:bg-white border-2 border-primary rounded-full py-2 px-8">
+                    LEARN MORE
+                </button>
+            </div>
+            <!-- news-card-2 -->
+            <div class="flex flex-col space-y-6 items-center bg-white py-4">
+                <h1 class="text-center text-2xl font-medium">
+                    What is a Condenser Microphone and When to Use One
+                </h1>
+                <img src="./assets/news/news2.jpg" alt="news-2">
+                <p class="text-center text-xl">Learn more about the different types of condenser mics, how they work and the best applications for using them.</p>
+                <button class="bg-primary text-white hover:text-primary hover:bg-white border-2 border-primary rounded-full py-2 px-8">
+                    LEARN MORE
+                </button>
+            </div>
+            <!-- news-card-3 -->
+            <div class="flex flex-col space-y-6 items-center bg-white py-4">
+                <h1 class="text-center text-2xl font-medium">
+                    Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now
+                </h1>
+                <img src="./assets/news/news3.jpg" alt="news-3">
+                <p class="text-center text-xl">Firmware version 1.0.7 includes key feature additions, such as custom routing for USB and Bluetooth outputs, and more.</p>
+                <button class="bg-primary text-white hover:text-primary hover:bg-white border-2 border-primary rounded-full py-2 px-8">
+                    LEARN MORE
+                </button>
+            </div>
+            <!-- news-card-4 -->
+            <div class="flex flex-col space-y-6 items-center bg-white py-4">
+                <h1 class="text-center text-2xl font-medium">
+                    The RØDECaster Pro II Is Shipping Now
+                </h1>
+                <img src="./assets/news/news4.jpg" alt="news-4">
+                <p class="text-center text-xl">The world’s most powerful all-in-one audio solution for content creators is now available worldwide.</p>
+                <button class="bg-primary text-white hover:text-primary hover:bg-white border-2 border-primary rounded-full py-2 px-8">
+                    LEARN MORE
+                </button>
+            </div>
+        </section>
+        <footer class="bg-white md:px-28 mt-20 border-t border-slate-400">
+            <div class="md:py-10 border-b border-cyan-500 md:px-24 md:px-10 flex md:flex-row flex-col md:justify-between justify-center">
+                <!-- right -->
+                <div class="flex md:flex-row flex-col md:space-x-10 md:items-start items-center md:py-0 py-6">
+                    <img src="./assets/logo.svg" alt="footer-logo">
+                    <div class="flex space-y-4 flex-col">
+                        <h2 class="text-black font-bold text-lg">Products</h2>
+                        <a href="#" class="hover:opacity-60">Microphones</a>
+                        <a href="#" class="hover:opacity-60">Headphones</a>
+                        <a href="#" class="hover:opacity-60">Interfaces & Mixers</a>
+                        <a href="#" class="hover:opacity-60">Accessories</a>
+                        <a href="#" class="hover:opacity-60">Software</a>
+                        <a href="#" class="hover:opacity-60">Apparel</a>
+                    </div>
+                    <div class="flex space-y-4 flex-col">
+                        <h2 class="text-black font-bold text-lg">Support</h2>
+                        <a href="#" class="hover:opacity-60">Contact RØDE</a>
+                        <a href="#" class="hover:opacity-60">Service Center</a>
+                        <a href="#" class="hover:opacity-60">Warranty</a>
+                        <a href="#" class="hover:opacity-60">Where to Buy</a>
+                    </div>
+                    <div class="flex flex-col space-y-10">
+                        <div class="flex space-y-4 flex-col">
+                            <h2 class="text-black font-bold text-lg">Company</h2>
+                            <a href="#" class="hover:opacity-60">About RØDE</a>
+                            <a href="#" class="hover:opacity-60">News and Info</a>
+                            <a href="#" class="hover:opacity-60">Job Opportunities</a>
+                        </div>
+                        <div class="flex space-y-4 flex-col">
+                            <h2 class="text-black font-bold text-lg">Account</h2>
+                            <a href="#" class="hover:opacity-60">Manage your Account</a>
+                            <a href="#" class="hover:opacity-60">Create Account</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- left -->
+                <div class="flex flex-col md:items-end space-y-2">
+                    <span class="font-medium text-4xl text-black">Subscribe to our latest</span>
+                    <span class="font-medium text-4xl text-black md:pl-20">news and offers</span>
+                    <button class="py-2 px-6 bg-primary text-white font-semibold hover:bg-white hover:text-primary border-2 border-primary rounded-full">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+            <!-- social media icons -->
+            <div class="py-10 flex flex-col md:flex-row md:justify-between items-center space-y-6">
+                <div class="text-gray-600">
+                    <span>&#169 2022 RØDE All Rights Reserved.</span>
+                </div>
+                <div class="flex flex-row">
+                    <span>Privacy Policy</span>
+                    <div class="w-px h-6 bg-primary mx-2"></div>
+                    <span>Terms & Conditions</span>
+                </div>
+                <div class="space-x-4">
+                    <i class="fa-brands fa-facebook h-8 w-8 text-primary"></i>
+                    <i class="fa-brands fa-twitter h-8 w-8 text-primary"></i>
+                    <i class="fa-brands fa-instagram h-8 w-8 text-primary"></i>
+                    <i class="fa-brands fa-youtube h-8 w-8 text-primary"></i>
+                    <i class="fa-brands fa-tiktok h-8 w-8 text-primary"></i>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
